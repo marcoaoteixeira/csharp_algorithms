@@ -1,5 +1,5 @@
 namespace CSharp.Algorithms {
 	public sealed class Fibonacci {
-		public static int CalculateFor(int index) => (index > 2) ? Fibonacci(index - 1) + Fibonacci(index - 2) : 1;
+		public static int CalculateFor(int index) => (index > 2) ? CalculateFor(index - 1) + CalculateFor(index - 2) : 1;
 	}
 }
